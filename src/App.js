@@ -1,24 +1,59 @@
-import logo from './logo.svg';
-import './App.css';
+// import './App.css';
+// import 'bootstrap/dist/css/bootstrap.min.css';
+// import 'bootstrap/dist/js/bootstrap.bundle.min.js';
+// import Navbar from './components/Navbar';
+
+// function App() {
+//   return (
+//    <>
+//    <Navbar />
+//    <h1>
+//     Daksh
+//    </h1>
+//    </>
+//   );
+// }
+
+// export default App;
+
+
+
+import React, { useEffect } from "react";
+import AOS from "aos";
+import "aos/dist/aos.css";
+import "bootstrap/dist/css/bootstrap.min.css";
+import MyNavbar from "./components/MyNavbar";
+import Hero from "./components/Hero";
+import About from "./components/About";
+import Projects from "./components/Projects";
+import Skills from "./components/Skills";
+
+import Experience from "./components/Experience";
+import Qualifications from "./components/Qualifications";
+import Certifications from "./components/Certifications";
+import Contact from "./components/Contact";
+import Footer from "./components/Footer";
 
 function App() {
+  useEffect(() => {
+    AOS.init({ duration: 1000, once: true });
+  }, []);
+
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <>
+      <MyNavbar />
+      <Hero />
+      <About />
+      <Projects />
+      <Skills />
+
+      
+      <Experience />
+      <Qualifications />
+      <Certifications />
+      <Contact />
+      <Footer />
+    </>
   );
 }
 
