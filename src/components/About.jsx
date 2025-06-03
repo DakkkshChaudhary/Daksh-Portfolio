@@ -26,14 +26,14 @@ export default function About() {
 
 
 
-      <section id="about" className="bg-light py-5">
-        <div className="container-fluid">
+      <section id="about" className="bg-body-secondary py-5 col-md-12">
+        <div className="container-fluid align-items-center justify-content-center " data-aos="fade-up">
           <div className="row align-items-center">
             <div className="col-md-6 mb-4 mb-md-0" data-aos="fade-right">
-              <img src="/assets/images/image.png" alt="no image found" className="img-fluid rounded-4 shadow-lg" />
+              <img src="/assests/images/image.png" alt="no image found" height={400} width={400} className="img-fluid rounded-4 shadow-lg" />
             </div>
-            <div className="col-md-6" data-aos="fade-left">
-              <h2 className="fw-bold mb-3 text-primary" data-aos="fade-up">About Me 🚀</h2>
+            <div className="col-md-6 " data-aos="fade-left">
+              <h2 className="text-primary  display-4 fw-bold mb-3 " data-aos="fade-up">About Me 🚀</h2>
               <p className="lead" data-aos="fade-left" data-aos-delay="200">
                 Hello! I'm <strong>Daksh Choudhary</strong>, a passionate <span className="text-success">Front-End Developer</span> and <span className="text-warning">I build responsive websites</span> from Greater Noida, India.
               </p>

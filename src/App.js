@@ -1,23 +1,3 @@
-// import './App.css';
-// import 'bootstrap/dist/css/bootstrap.min.css';
-// import 'bootstrap/dist/js/bootstrap.bundle.min.js';
-// import Navbar from './components/Navbar';
-
-// function App() {
-//   return (
-//    <>
-//    <Navbar />
-//    <h1>
-//     Daksh
-//    </h1>
-//    </>
-//   );
-// }
-
-// export default App;
-
-
-
 import React, { useEffect } from "react";
 import AOS from "aos";
 import "aos/dist/aos.css";

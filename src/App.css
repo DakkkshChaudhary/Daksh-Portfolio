@@ -9,11 +9,15 @@
 
 body, html {
   overflow-x: hidden;
-  margin: 0;
+  /* margin: 0;
   padding: 0;
-  width: 100%;
+  width: 100%; */
   
 }
+
+
+
+
 
 [class*=text-highlight-] {
     background: left 1em / 1em .2em;
@@ -28,7 +32,102 @@ body, html {
 }
 
 
-.image-wrapper {
+
+
+
+
+.section-title {
+  font-weight: 700;
+  font-size: 2rem;
+  margin-bottom: 1rem;
+}
+
+.progress-wrapper {
+  height: 160px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  overflow: hidden;
+  color: white;
+  font-weight: bold;
+  font-size: 1.5rem;
+  position: relative;
+}
+
+.progress-text {
+  z-index: 2;
+  position: relative;
+}
+
+.wave {
+  background-color: rgba(255, 255, 255, 0.3);
+  width: 100%;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  animation: wave-fill 2s ease-in-out;
+  z-index: 1;
+}
+
+@keyframes wave-fill {
+  from {
+    height: 0%;
+  }
+  to {
+    height: 100%;
+  }
+}
+
+/* Background Colors */
+.bg-skill-1 {
+  background-color: #fdb157;
+}
+.bg-skill-2 {
+  background-color: #9473e6;
+}
+.bg-skill-3 {
+  background-color: #bdecf6;
+}
+.bg-skill-4 {
+  background-color: #ffbcaa;
+}
+
+
+
+
+.skill-circle {
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+.skill-circle:hover {
+  transform: scale(1.08);
+  box-shadow: 0 0 12px rgba(0, 0, 0, 0.2);
+}
+
+@media (max-width: 576px) {
+  .skill-circle {
+    width: 90px !important;
+  }
+}
+
+.CircularProgressbar-text {
+  dominant-baseline: middle;
+  alignment-baseline: middle;
+}
+
+
+
+
+.timeline-card {
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+.timeline-card:hover {
+  transform: scale(1.03);
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.15);
+}
+
+
+
+/* .image-wrapper {
   width: 600px;
   max-width: 100%;
   overflow: hidden;
@@ -41,7 +140,7 @@ body, html {
   clip-path: polygon(20% 0%, 100% 0%, 80% 100%, 0% 100%);
   -webkit-clip-path: polygon(20% 0%, 100% 0%, 80% 100%, 0% 100%);
   transition: all 0.3s ease-in-out;
-}
+} */
 
 
 @media (prefers-reduced-motion: no-preference) {
