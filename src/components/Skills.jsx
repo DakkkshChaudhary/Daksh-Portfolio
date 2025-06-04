@@ -7,7 +7,7 @@ export default function Skills() {
         {/* data-aos-duration="1200" data-aos-delay="200" */}
             <section id="skills" className="bg-body-secondary py-5" >
                 <div className="container " data-aos="fade-up" >
-                    <h2 className="text-center mb-4">Skills</h2>
+                    <h2 className="text-center display-4 fw-bold mb-4 ">Skills 🖥</h2>
                     <div className="row justify-content-center">
                         <div className="col-md-10">
                             <div className="d-flex flex-wrap justify-content-center gap-4">
