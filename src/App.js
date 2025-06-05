@@ -13,6 +13,7 @@ import Qualifications from "./components/Qualifications";
 import Certifications from "./components/Certifications";
 import Contact from "./components/Contact";
 import Footer from "./components/Footer";
+import ScrollToTopButton from "./components/ScrollToTopButton";
 
 function App() {
   useEffect(() => {
@@ -33,6 +34,7 @@ function App() {
       <Certifications />
       <Contact />
       <Footer />
+      <ScrollToTopButton />
     </>
   );
 }

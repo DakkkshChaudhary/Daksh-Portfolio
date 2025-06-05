@@ -14,7 +14,7 @@ export default function Projects() {
     <>
       <section id="projects" className="bg-body-secondary py-5  text-center  d-flex align-items-center justify-content-center">
         <div className="container" data-aos="fade-up">
-          <h2 className="display-4 fw-bold mb-3">🎯 Projects</h2>
+          <h2 className="text-center mb-5 text-center display-4 fw-bold mb-4" data-aos="fade-right">🎯 Projects</h2>
 
           <div className="row row-cols-1 row-cols-md-2 g-4" data-aos="fade-up">
             <div className="col" >

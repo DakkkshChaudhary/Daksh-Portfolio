@@ -5,13 +5,14 @@ export default function Contact() {
     <>
       <section id="contact" className="py-5 bg-light">
       <div className="container" data-aos="fade-up">
-        <h2 className="text-center fw-bold mb-5">📬 Contact Me</h2>
+        <h2 className="text-center mb-5 text-center display-4 fw-bold mb-4" data-aos="fade-right">📬 Contact Me</h2>
+        {/* <h2 className="text-center fw-bold mb-5">📬 Contact Me</h2> */}
 
         <div className="row g-4">
           <div className="col-md-5" data-aos="fade-right">
             <div className="bg-white p-4 rounded shadow-sm h-100">
               <h5 className="mb-3">Get in touch</h5>
-              <p><i className="fas fa-map-marker-alt me-2 text-primary"></i> Greater Noida, India</p>
+              <p><i className="fas fa-map-marker-alt me-2 text-primary"></i> Noida, India</p>
               <p><i className="fas fa-envelope me-2 text-primary"></i> dakshchaudhary584@gmail.com</p>
               <p><i className="fas fa-phone-alt me-2 text-primary"></i> +91 99273269XX</p>
               <div className="mt-3">
