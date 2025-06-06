@@ -6,13 +6,13 @@ export default function Footer() {
           <footer className="bg-dark text-light py-4 mt-5">
       <div className="container text-center">
         <div className="mb-3">
-          <a href="https://github.com/yourusername" target="_blank" rel="noreferrer" className="text-light mx-2">
+          <a href="https://github.com/DakkkshChaudhary" target="_blank" rel="noreferrer" className="text-light mx-2">
             <i className="fab fa-github fa-lg"></i>
           </a>
-          <a href="https://linkedin.com/in/yourusername" target="_blank" rel="noreferrer" className="text-light mx-2">
+          <a href="https://linkedin.com/in/daksh-choudhary-286a21257/" target="_blank" rel="noreferrer" className="text-light mx-2">
             <i className="fab fa-linkedin fa-lg"></i>
           </a>
-          <a href="mailto:daksh@email.com" className="text-light mx-2">
+          <a href="mailto:dakshchaudhary584@gmail.com" className="text-light mx-2">
             <i className="fas fa-envelope fa-lg"></i>
           </a>
         </div>

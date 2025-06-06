@@ -6,7 +6,12 @@ import { motion } from "framer-motion";
 
 export default function Qualification() {
   React.useEffect(() => {
-    AOS.init({ duration: 1000 });
+    // AOS.init({ duration: 1000 });
+    AOS.init({
+        duration: 1000,     
+        once: false,        
+        mirror: true         
+      });
   }, []);
 
   const fadeInUp = {
@@ -51,7 +56,9 @@ export default function Qualification() {
 
   return (
     // <section id="qualification" className="py-5 bg-light">
-    <section id="qualification" className="bg-body-secondary py-5  text-center  d-flex align-items-center justify-content-center">
+    // <section id="qualification" className="bg-light py-5  text-center  d-flex align-items-center justify-content-center">
+    <section id="qualification" className="bg-light py-5  text-center   align-items-center justify-content-center">
+
       <div className="container">
         <h2 className="text-center mb-5 text-center display-4 fw-bold mb-4" data-aos="fade-right">⏱ Qualifications</h2>
         <div className="position-relative border-start border-3 border-primary ms-4">

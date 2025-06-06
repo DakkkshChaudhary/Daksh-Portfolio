@@ -3,7 +3,8 @@ import AOS from "aos";
 import "aos/dist/aos.css";
 import "bootstrap/dist/css/bootstrap.min.css";
 import MyNavbar from "./components/MyNavbar";
-import Hero from "./components/Hero";
+// import Hero from "./components/Hero";
+import Home from "./components/Home";
 import About from "./components/About";
 import Projects from "./components/Projects";
 import Skills from "./components/Skills";
@@ -17,13 +18,18 @@ import ScrollToTopButton from "./components/ScrollToTopButton";
 
 function App() {
   useEffect(() => {
-    AOS.init({ duration: 1000, once: true });
+    // AOS.init({ duration: 1000, once: true });
+     AOS.init({
+    duration: 1000,     // animation duration in ms
+    once: false,        
+    mirror: true         
+  });
   }, []);
 
   return (
     <>
       <MyNavbar />
-      <Hero />
+      <Home/>
       <About />
       <Projects />
       <Skills />
@@ -31,7 +37,7 @@ function App() {
       
       <Experience />
       <Qualifications />
-      <Certifications />
+      {/* <Certifications /> */}
       <Contact />
       <Footer />
       <ScrollToTopButton />

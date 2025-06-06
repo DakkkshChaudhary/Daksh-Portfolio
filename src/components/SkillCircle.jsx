@@ -67,6 +67,11 @@
 // export default SkillCircle;
 
 
+
+
+
+
+
 import React from "react";
 import {
   CircularProgressbar,
