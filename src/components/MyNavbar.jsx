@@ -54,7 +54,7 @@ import { useState } from 'react';
 
 function MyNavbar() {
   return (
-    <Navbar expand="lg" bg="dark" variant="dark" sticky="top">
+    <Navbar expand="sm" bg="dark" variant="dark" sticky="top">
       <Container>
         <Navbar.Brand href="#home">Daksh Choudhary</Navbar.Brand>
         <Navbar.Toggle aria-controls="basic-navbar-nav" />

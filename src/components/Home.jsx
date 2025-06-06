@@ -9,7 +9,7 @@ import 'bootstrap/dist/js/bootstrap.bundle.min.js';
 export default function Home() {
   return (
     <>
-      <section id="home" className="bg-light text-white text-center py-5 d-flex align-items-center justify-content-center col-md-12">
+      <section id="home" className="bg-light text-white text-center py-2 d-flex align-items-center justify-content-center col-md-12">
         <div className="container-fluid">
           <div className="row vh-100" data-aos="fade-up" data-aos-delay="100">
             <div className=" bg-dark text-white d-flex justify-content-center align-items-center p-4" data-aos="fade-up" data-aos-delay="200">

@@ -79,7 +79,7 @@ const Contact = () => {
   return (
     <section id="contact" className="py-5 bg-light">
       <div className="container">
-        <h2 className="text-center fw-bold mb-5" data-aos="fade-down">📬 Contact Me</h2>
+        <h2 className="text-center mb-5 text-center display-4 fw-bold mb-4" data-aos="fade-down">📬 Contact Me</h2>
 
         <div className="row g-4">
           {/* Contact Form */}
@@ -103,7 +103,7 @@ const Contact = () => {
 
           {/* Info Section */}
           <div className="col-md-6" data-aos="fade-left">
-            <div className="row text-center mb-4">
+            <div className="row text-center mb-4 gap-1">
               <div className="col-md-4">
                 <i className="fas fa-map-marker-alt fa-2x text-primary mb-2"></i>
                 <h6>Location</h6>
@@ -121,9 +121,9 @@ const Contact = () => {
               </div>
             </div>
 
-            {/* Socials + Actions */}
+           
             <div className="text-center">
-              <div className="d-flex justify-content-center gap-3 mb-3">
+              <div className="d-flex justify-content-center gap-4 mb-3">
                 <a href="https://linkedin.com/in/daksh-choudhary-286a21257/" target="_blank" rel="noreferrer" className="text-dark" data-bs-toggle="tooltip" title="LinkedIn">
                   <i className="fab fa-linkedin fa-2x"></i>
                 </a>
@@ -134,9 +134,9 @@ const Contact = () => {
                   <i className="fas fa-envelope fa-2x"></i>
                 </a>
               </div>
-              <a href="/cv.pdf" className="btn btn-outline-dark me-2" download>
+              {/* <a href="/cv.pdf" className="btn btn-outline-dark me-2" download>
                 <i className="fas fa-file-download me-2"></i>Download CV
-              </a>
+              </a> */}
               {/* <a href="https://calendly.com/yourusername" className="btn btn-outline-primary" target="_blank">
                 <i className="fas fa-calendar-alt me-2"></i>Schedule a Call
               </a> */}
@@ -145,7 +145,7 @@ const Contact = () => {
 
           {/* Google Map */}
           <div className="col-12" data-aos="fade-up">
-            <iframe
+            {/* <iframe
               title="location-map"
               src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2732.428178509306!2d77.44354187422104!3d28.58936578604195!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x390ceef2c3da8ab5%3A0xb8ae0edb7952465a!2sMayfair%20Residency!5e1!3m2!1sen!2sin!4v1749210405403!5m2!1sen!2sin"
               width="100%"
@@ -154,9 +154,7 @@ const Contact = () => {
               allowFullScreen=""
               loading="lazy"
               className="rounded shadow-sm"
-            ></iframe>
-
-            {/* <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2732.428178509306!2d77.44354187422104!3d28.58936578604195!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x390ceef2c3da8ab5%3A0xb8ae0edb7952465a!2sMayfair%20Residency!5e1!3m2!1sen!2sin!4v1749210405403!5m2!1sen!2sin" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe> */}
+            ></iframe> */}
           </div>
         </div>
       </div>
