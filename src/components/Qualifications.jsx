@@ -1,4 +1,3 @@
-// components/Qualification.js
 import React from "react";
 import "aos/dist/aos.css";
 import AOS from "aos";
@@ -37,26 +36,25 @@ export default function Qualification() {
     {
       title: "Bachelor of Science (PCM)",
       subtitle: "Rohilkhand University",
-      year: "2019 - 2022",
+      year: "2016 - 2019",
       icon: "📘",
     },
     {
       title: "Intermediate",
       subtitle: "CBSE Board",
-      year: "2018 - 2019",
+      year: "2014 - 2015",
       icon: "🏫",
     },
     {
       title: "High School",
       subtitle: "CBSE Board",
-      year: "2016 - 2017",
+      year: "2012 - 2013",
       icon: "📖",
     },
   ];
 
   return (
     // <section id="qualification" className="py-5 bg-light">
-    // <section id="qualification" className="bg-light py-5  text-center  d-flex align-items-center justify-content-center">
     <section id="qualification" className="bg-light py-5  text-center   align-items-center justify-content-center">
 
       <div className="container">

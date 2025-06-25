@@ -1,68 +1,3 @@
-// import React from 'react'
-
-// export default function Contact() {
-//   return (
-//     <>
-//       <section id="contact" className="py-5 bg-light">
-//       <div className="container" data-aos="fade-up">
-//         <h2 className="text-center mb-5 text-center display-4 fw-bold mb-4" data-aos="fade-right">📬 Contact Me</h2>
-//         {/* <h2 className="text-center fw-bold mb-5">📬 Contact Me</h2> */}
-
-//         <div className="row g-4">
-//           <div className="col-md-5" data-aos="fade-right">
-//             <div className="bg-white p-4 rounded shadow-sm h-100">
-//               <h5 className="mb-3">Get in touch</h5>
-//               <p><i className="fas fa-map-marker-alt me-2 text-primary"></i> Noida, India</p>
-//               <p><i className="fas fa-envelope me-2 text-primary"></i> dakshchaudhary584@gmail.com</p>
-//               <p><i className="fas fa-phone-alt me-2 text-primary"></i> +91 99273269XX</p>
-//               <div className="mt-3">
-//                 <a href="https://github.com/DakkkshChaudhary" target="_blank" rel="noreferrer" className="text-dark me-3" data-aos="zoom-in">
-//                   <i className="fab fa-github fa-2x"></i>
-//                 </a>
-//                 <a href="https://www.linkedin.com/in/daksh-choudhary-286a21257/" target="_blank" rel="noreferrer" className="text-dark me-3" data-aos="zoom-in" data-bs-toggle="tooltip">
-//                   <i className="fab fa-linkedin fa-2x"></i>
-//                 </a>
-//                 <a href="mailto:dakshchaudhary584@gmail.com" className="text-dark" data-aos="zoom-in">
-//                   <i className="fas fa-envelope fa-2x"></i>
-//                 </a>
-//                 {/* <a  href="https://wa.me/9199273269XX" className="text-dark" data-aos="zoom-in">
-//                   <i className="fab fa-whatsapp me-2 fa-2x"></i>
-//                 </a>
-//                  */}
-//               </div>
-//             </div>
-//           </div>
-
-//           {/* Contact Form */}
-//           <div className="form-floating col-md-7" data-aos="fade-left">
-//             <form className="bg-white p-4 rounded shadow-sm">
-//               <div className="mb-3">
-//                 <label htmlFor="name" className="form-label">Name</label>
-//                 <input type="text" id="name" className="form-control" placeholder="Your name" required />
-//               </div>
-
-//               <div className="mb-3">
-//                 <label htmlFor="email" className="form-label">Email</label>
-//                 <input type="email" id="email" className="form-control" placeholder="Your email" required />
-//               </div>
-
-//               <div className="mb-3">
-//                 <label htmlFor="message" className="form-label">Message</label>
-//                 <textarea id="message" className="form-control" rows="4" placeholder="Your message..." required></textarea>
-//               </div>
-
-//               <button type="submit" className="btn btn-primary w-100" data-aos="zoom-in">Send Message</button>
-//             </form>
-//           </div>
-//         </div>
-//       </div>
-//     </section>
-//     </>
-//   )
-// }
-
-
-
 import React, { useEffect } from 'react';
 import 'aos/dist/aos.css';
 import AOS from 'aos';
@@ -97,7 +32,7 @@ const Contact = () => {
                 <label htmlFor="message" className="form-label">Message</label>
                 <textarea className="form-control" id="message" rows="4" placeholder="Your Message" required></textarea>
               </div>
-              <button type="submit" className="btn btn-primary w-100">Send Message</button>
+              <button type="submit" className="btn btn-primary w-100" data-aos="zoom-in">Send Message</button>
             </form>
           </div>
 
@@ -117,7 +52,7 @@ const Contact = () => {
               <div className="col-md-4">
                 <i className="fas fa-phone-alt fa-2x text-primary mb-2"></i>
                 <h6>Phone</h6>
-                <p>+91 99273269XX</p>
+                <p>+91 9927326959</p>
               </div>
             </div>
 

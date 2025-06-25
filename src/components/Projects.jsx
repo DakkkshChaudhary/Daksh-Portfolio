@@ -24,28 +24,28 @@ export default function Projects() {
                   <p className="card-text">
                     QuickBasket is a user-friendly grocery shopping web app that allows users to browse, add to cart, and checkout items quickly. It streamlines the online grocery experience with a clean UI and smooth navigation.
                   </p>
-                  <a href="https://github.com/DakkkshChaudhary" className="btn btn-outline-light mt-3" data-aos="zoom-in" data-aos-delay="400">
+                  <a href="https://github.com/DakkkshChaudhary" className="btn btn-outline-light mt-3" data-aos="zoom-in" data-aos-delay="250">
                     <i className="fa-brands fa-github fa-2x"></i>
                   </a>
                 </div>
               </div>
             </div>
-            
 
-          <div className="col" data-aos="fade-left">
+
+            <div className="col" data-aos="fade-left">
               <div className="card text-white position-relative" data-aos="zoom-in-up" style={{ height: '325px', backgroundImage: `url('/assests/images/chating mobile.jpg')`, backgroundSize: 'cover', backgroundPosition: 'center' }}>
                 <div className="position-absolute top-50 start-50 translate-middle text-center bg-dark bg-opacity-50 p-4 rounded" style={{ width: '90%' }}>
                   <h5 className="card-title">ChatLoop</h5>
                   <p className="card-text">
                     ChatLoop is a real-time chat application that allows users to communicate seamlessly. With features like group chats, file sharing, and message notifications, it enhances online collaboration.
                   </p>
-                  <a href="https://github.com/DakkkshChaudhary" className="btn btn-outline-light mt-3" data-aos="zoom-in" data-aos-delay="400">
+                  <a href="https://github.com/DakkkshChaudhary" className="btn btn-outline-light mt-3" data-aos="zoom-in" data-aos-delay="250">
                     <i className="fa-brands fa-github fa-2x"></i>
                   </a>
                 </div>
               </div>
             </div>
-            
+
 
             <div className="col" data-aos="fade-left">
               <div className="card text-white position-relative" data-aos="zoom-in-up" style={{ height: '325px', backgroundImage: `url('/assests/images/smart-home.jpg')`, backgroundSize: 'cover', backgroundPosition: 'center' }}>
@@ -54,13 +54,13 @@ export default function Projects() {
                   <p className="card-text">
                     Smart Home Dashboard is a comprehensive solution for managing and monitoring smart home devices. It provides real-time data visualization, device control, and automation features to enhance the smart home experience.
                   </p>
-                  <a href="https://github.com/DakkkshChaudhary" className="btn btn-outline-light mt-3" data-aos="zoom-in" data-aos-delay="400">
+                  <a href="https://github.com/DakkkshChaudhary" className="btn btn-outline-light mt-3" data-aos="zoom-in" data-aos-delay="250">
                     <i className="fa-brands fa-github fa-2x"></i>
                   </a>
                 </div>
               </div>
             </div>
-            
+
 
 
             <div className="col" data-aos="fade-left">
@@ -70,13 +70,13 @@ export default function Projects() {
                   <p className="card-text">
                     To-Do Manager is a task management application that helps users organize and prioritize their tasks effectively. With features like due dates, reminders, and progress tracking, it boosts productivity and keeps users on top of their to-do lists.
                   </p>
-                  <a href="https://github.com/DakkkshChaudhary" className="btn btn-outline-light mt-3" data-aos="zoom-in" data-aos-delay="400">
+                  <a href="https://github.com/DakkkshChaudhary" className="btn btn-outline-light mt-3" data-aos="zoom-in" data-aos-delay="250">
                     <i className="fa-brands fa-github fa-2x"></i>
                   </a>
                 </div>
               </div>
             </div>
-            
+
 
 
             <div className="col">
@@ -86,13 +86,13 @@ export default function Projects() {
                   <p className="card-text">
                     Face Attendance System is an innovative application that uses facial recognition technology to automate attendance tracking. It enhances accuracy and efficiency in attendance management.
                   </p>
-                  <a href="https://github.com/DakkkshChaudhary" className="btn btn-outline-light mt-3" data-aos="zoom-in" data-aos-delay="400">
+                  <a href="https://github.com/DakkkshChaudhary" className="btn btn-outline-light mt-3" data-aos="zoom-in" data-aos-delay="250">
                     <i className="fa-brands fa-github fa-2x"></i>
                   </a>
                 </div>
               </div>
             </div>
-            
+
 
 
             <div className="col">
@@ -102,7 +102,7 @@ export default function Projects() {
                   <p className="card-text">
                     ChatLoop is a real-time chat application that allows users to communicate seamlessly. With features like group chats, file sharing, and message notifications, it enhances online collaboration.
                   </p>
-                  <a href="https://github.com/DakkkshChaudhary" className="btn btn-outline-light mt-3" data-aos="zoom-in" data-aos-delay="400">
+                  <a href="https://github.com/DakkkshChaudhary" className="btn btn-outline-light mt-3" data-aos="zoom-in" data-aos-delay="250">
                     <i className="fa-brands fa-github fa-2x"></i>
                   </a>
                 </div>
@@ -112,15 +112,6 @@ export default function Projects() {
 
 
 
-          {/* <ul>
-            <li>✈️ Airline Management System</li>
-            <li>🎯 Real-Time Face Attendance System</li>
-            <li>🔥 Hotstar Clone Bootcamp Project</li>
-            
-            ⭐ 10+ Projects Completed
-              ⏱ 1000+ Hours of Coding
-            💡 Always Learning Something New
-          </ul> */}
         </div>
       </section>
 

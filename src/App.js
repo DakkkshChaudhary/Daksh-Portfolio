@@ -15,12 +15,15 @@ import Certifications from "./components/Certifications";
 import Contact from "./components/Contact";
 import Footer from "./components/Footer";
 import ScrollToTopButton from "./components/ScrollToTopButton";
+import ScrollProgress from "./components/ScrollProgress";
+// import WarpParticles from "./components/WarpParticles";
+// import FallingIcons from "./components/FallingIcons";
 
 function App() {
   useEffect(() => {
     // AOS.init({ duration: 1000, once: true });
      AOS.init({
-    duration: 1000,     // animation duration in ms
+    duration: 1000,    
     once: false,        
     mirror: true         
   });
@@ -28,7 +31,10 @@ function App() {
 
   return (
     <>
+    {/* <WarpParticles /> */}
       <MyNavbar />
+      {/* <FallingIcons /> */}
+      < ScrollProgress/>
       <Home/>
       <About />
       <Projects />

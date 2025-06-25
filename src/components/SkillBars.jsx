@@ -1,4 +1,3 @@
-// components/SkillBars.js
 import React from "react";
 import SkillBars from "react-skillbars";
 

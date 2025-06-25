@@ -27,8 +27,10 @@
     "react-skillbars": "^2.2.0",
     "react-toastify": "^11.0.5",
     "react-tooltip": "^5.28.1",
+    "react-tsparticles": "^2.12.2",
     "react-typed": "^2.0.12",
     "react-vertical-timeline-component": "^3.5.3",
+    "tsparticles": "^3.8.1",
     "web-vitals": "^2.1.4"
   },
   "scripts": {
